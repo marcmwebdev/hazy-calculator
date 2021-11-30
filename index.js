@@ -39,7 +39,7 @@ function calculator(arr) {
    
 
     
-    let cleanArray = [...arr]; // cleanArray => ['2', '*', 4] <= clean copy
+    let cleanArray = [...arr];
 
    
     cleanArray.pop(); 
@@ -79,7 +79,7 @@ function calculator(arr) {
       return firstNumber += endNumber;
     } // code block end
 
-    if (operation === '-') { // code block start for our subtraction
+    if (operation === '-') {
       let firstNumber;
       let endNumber = end || 0;
       cleanNumbers.forEach(x => {
